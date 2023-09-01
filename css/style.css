@@ -61,7 +61,7 @@ p{
 whatsnew{
 	font-size: 4; 
 	font-style: italic; 
-	font-weight:bold; 
+	font-weight: bold; 
 	font-family: Consolas,汉仪文黑-85W,微软雅黑; 
 	color: #FFFF00;
 	padding-left: 156px; 
@@ -73,4 +73,12 @@ foot{
 	font-weight: normal; 
 	font-family: 新宋体; 
 	color: #808080; 
+}
+
+404title{
+	font-size: 7;
+	font-weight: bold;
+	font-family: Consolas, 新宋体;
+	text-align: center;
+	color: #000000
 }

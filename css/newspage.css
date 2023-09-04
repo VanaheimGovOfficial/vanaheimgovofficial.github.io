@@ -1,0 +1,114 @@
+pagetitle{
+	background: #99D9EA;
+	display: block;
+}
+
+carousel{
+	margin: 0;
+	padding: 0;
+	background: #7E84F7;
+	display: block;
+}
+
+.slidershow{
+	width:1024px;
+	height: 463px;
+	overflow: hidden;
+	display: block;
+}
+
+.middle{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	display: block;
+}
+
+.navigation{
+	position: relative;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex
+}
+
+.bar{
+	width: 48px;
+	height: 10px;
+	border: 2px solid #EEEEEE;
+	margin: 8px;
+	cursor: pointer;
+	transition: 0.4s
+}
+
+.bar:hover{
+	background: #EEEEEE
+}
+
+div{
+	font-size: 3;
+	font-weight: normal;
+	font-family: 汉仪文黑-85W,微软雅黑;
+	color: #3F3F3F;
+	padding-left: 128px;
+	padding-right: 128px
+}
+
+p{
+	font-size: 3;
+	font-weight: normal;
+	font-family: 汉仪文黑-85W,微软雅黑;
+	color: #3F3F3F;
+	padding-left: 128px;
+	padding-right: 128px;
+	text-indent: 1cm
+}
+
+foot{
+	font-size: 2;
+	font-weight: normal;
+	font-family: 新宋体;
+	color: #808080
+}
+
+list{
+	font-size: 3;
+	font-family: Consolas,汉仪文黑-85W,微软雅黑;
+}
+
+input[name="r"]{
+	position: absolute;
+	visibility: hidden;
+}
+
+.slides{
+	width: 500%;
+	height: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.slide{
+	width: 15%;
+	transition: 0.5s;
+}
+
+#r1:checked ~ .s1{
+	margin-left: -5%;
+}
+
+#r2:checked ~ .s1{
+	margin-left: -25%;
+}
+
+#r3:checked ~ .s1{
+	margin-left: -45%;
+}
+
+#r4:checked ~ .s1{
+	margin-left: -65%;
+}
+
+#r5:checked ~ .s1{
+	margin-left: -85%;
+}

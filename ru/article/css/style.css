@@ -1,0 +1,61 @@
+h1{
+	font-weight: bold; 
+	font-family: Consolas, 微软雅黑; 
+	color: #00003F;
+	padding-left: 128px;
+	padding-right: 128px
+}
+
+h2{
+	font-weight: bold; 
+	font-family: Consolas, 微软雅黑; 
+	color: #404040;
+	padding-left: 150px; 
+	padding-right: 150px
+}
+
+h3{
+	font-weight: bold; 
+	font-family: Consolas, 微软雅黑; 
+	color: #808080;
+	padding-left: 150px; 
+	padding-right: 150px
+}
+
+info{
+	font-family: Consolas, 微软雅黑; 
+	color: #4472C4;
+	text-align: center;
+}
+
+div{
+	font-weight: normal; 
+	font-family: 汉仪文黑-85W,微软雅黑; 
+	color: #000000; 
+	padding-left: 128px; 
+	padding-right: 128px
+}
+
+lnk{
+	font-weight: normal; 
+	font-family: 汉仪文黑-85W,微软雅黑; 
+	color: #E8E8E8; 
+	padding-left: 128px; 
+	padding-right: 128px
+}
+
+p{
+	font-weight: normal; 
+	font-family: 汉仪文黑-85W,微软雅黑; 
+	color: #000000; 
+	padding-left: 128px; 
+	padding-right: 128px;
+	text-indent: 1cm
+}
+
+foot{
+	font-size: 2;
+	font-weight: normal; 
+	font-family: 新宋体; 
+	color: #808080; 
+}
